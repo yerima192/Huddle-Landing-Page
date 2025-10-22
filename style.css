@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@600&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Libertinus+Keyboard&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background: url("./Assets/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(322, 100%, 98%);
+    padding: 50px;
+    height: 100vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 89%;
+    margin: auto;
+}
+
+.btn button {
+    font-weight: 700;
+    width: 150px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn button:hover {
+    color: darkcyan;
+}
+
+.home1 {
+    width: 89%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.section1 {
+    width: 50%;
+
+}
+
+.para {
+    max-width: 700px;
+}
+
+.para p {
+    margin-top: 35px;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+}
+
+.para h1 {
+    color: hsl(192, 100%, 9%);
+    font-size: 3em;
+    line-height: 6rem;
+    font-weight: 700;
+}
+
+.image {
+    width: 100% !important;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.btn1 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn1 button {
+    width: 250px;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 28px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn1 button:hover {
+    background-color: #FF7BCC;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px;
+}
+
+.section2 {
+    width: 89%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: -1px 1px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.section3 {
+    width: 89%;
+    height: 70%;
+    padding: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: -1px 1px 12px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.image2 {
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text2 {
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+    width: 70%;
+}
+
+.text2 h2 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+.section4 {
+    width: 89%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    padding: 40px 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -170px;
+}
+
+.card h2 {
+    font-size: 2em;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 25px;
+}
+
+.btn2 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn2 button {
+    width: 300px;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 28px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn2 button:hover {
+    background-color: #FF7BCC;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    color: #fff;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    min-height: 60vh;
+    position: relative;
+    margin: auto;
+
+}
+
+.elemnt {
+    width: 89%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.logo-botton {
+    width: 200px;
+    height: 250px;
+}
+
+.logo-botton img {
+    width: 100%;
+    height: 100%;
+}
+
+.localisation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loren {
+    flex: 1;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.loren {
+    width: 500px;
+
+}
+
+.line,
+.loren {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: start;
+
+}
+
+.lien {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.lien a {
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.lien a:hover {
+    color: #FF7BCC;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cercle {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.ronder {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ronder i {
+    font-size: 30px;
+}
+
+.ronder:hover {
+    border: dashed hsl(322, 92%, 30%) 2px;
+    cursor: pointer;
+}
+
+.copy {
+    width: 89%;
+    margin: auto;
+    text-align: end;
+    font-size: 0.8em;
+}
+
+@media (max-width:1440px) {
+    .card {
+        width: 70%;
+        padding: 30px 20px;
+        bottom: -160px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card {
+        padding: 25px 15px;
+        width: 70%;
+        bottom: -150px;
+    }
+
+    .para h1 {
+        font-size: 2.5em;
+    }
+
+    .home1 {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    nav {
+        flex-direction: column;
+        line-height: 60px;
+    }
+
+    .home2 {
+        flex-direction: column;
+    }
+
+    .section1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .image img {
+        margin-bottom: 30px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .para h1 {
+        font-size: 1.8em;
+        line-height: 2.5rem;
+    }
+    .section2,
+    .section3 {
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section3 h2 {
+        font-size: 1.5em;
+
+    }
+    .section2 h2 {
+        font-size: 1.5em;
+    }
+
+    .text,
+    .image2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-botton {
+        width: 100%;
+        text-align: start;
+        height: 40%;
+        font-weight: 700;
+    }
+
+    .logo-botton img {
+        width: 25%;
+        height: 25%;
+        object-fit: cover;
+    }
+
+    .elemnt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .loren {
+        width: 100%;
+        text-align: center;
+    }
+
+    .localisation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copy {
+        text-align: center;
+    }
+
+    .card {
+        width: 85%;
+        padding: 22px 18px;
+    }
+
+    .card h2 {
+        font-size: 1.5em;
+    }
+
+    .card button {
+        font-size: 0.8em;
+    }
+
+    .home2 button {
+        font-size: 0.8em;
+    }
+
+    @media (max-width:425px) {
+        header {
+            background: url("./Assets/bg-hero-mobile.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: hsl(322, 100%, 98%);
+            background-position: center;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        .para h1 {
+            font-size: 1.5em;
+            line-height: 2rem;
+        }
+
+        .para {
+            margin-bottom: 70px;
+        }
+
+    }
+
+    .image {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .image img {
+        padding: 0;
+        object-fit: cover;
+        width: 100% ;
+    }
+
+    .text2 p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 22px 16px;
+    }
+
+    .logo-botton img {
+        width: 40%;
+        height: 40%;
+        object-fit: cover;
+
+    }
+
+    .cercle {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    @media (max-width:375px) {
+        header {
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .para h1 {
+            font-size: 1.8em;
+            font-weight: 600;
+            line-height: 2.1em;
+        }
+
+        .para p {
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        .image img {
+            margin-bottom: 50px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .text2 {
+            width: 100%;
+            padding: 8px;
+        }
+
+        .image2 {
+            padding: 10px;
+        }
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+    }
+
+    .card button {
+        width: 90%;
+        font-size: 0.7em;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .para h1{
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .image img {
+        margin-bottom: 250px;
+        width: 100%;
+        padding: 20px;
+    }
+    .image img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
