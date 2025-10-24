@@ -367,6 +367,15 @@ footer {
 }
 
 @media (max-width:1024px) {
+    .image{
+        width: 100%;
+        padding: 0px;
+    }
+    .image img{
+        width: 100%;
+        padding: 0px;
+
+    }
     .card {
         padding: 25px 15px;
         width: 70%;
@@ -386,6 +395,9 @@ footer {
     nav {
         flex-direction: column;
         line-height: 60px;
+    }
+    .inverse{
+        flex-direction: column;
     }
 
     .home2 {
@@ -567,7 +579,7 @@ footer {
         .image img {
             margin-bottom: 50px;
             width: 100%;
-            padding: 20px;
+            padding: 10px;
         }
 
         .text2 {
@@ -593,13 +605,13 @@ footer {
 
 @media (max-width:320px) {
     .para h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 40px;
     }
     .image img {
         margin-bottom: 250px;
         width: 100%;
-        padding: 20px;
+        padding: 5px;
     }
     .image img {
         width: 100%;
